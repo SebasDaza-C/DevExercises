@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1;
+    transition-duration: 1s;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #d5e1d3;
+    height: 100vh;
+    display: flex;
+}
+
+.login {
+    transition-duration: initial;
+    width: 400px;
+    height: 400px;
+    padding: 50px;
+    background-color: #fff;
+    box-shadow: #0003 0 0 30px 1px;
+    margin: auto;
+}
+
+.login__logo {
+    display: block;
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.login__title {
+    margin: 10px 0;
+    font-size: 30px;
+    font-weight: 200;
+}
+
+.login__input {
+    font-size: 15px;
+    width: 100%;
+    outline: none;
+    padding: 8px 0;
+    margin: 10px 0;
+    border: none;
+    border-bottom: #000 1px solid;
+}
+
+
+.login__create-account {
+    text-align: left;
+    margin: 10px 0;
+    font-size: 13px;
+    color: #444444;
+}
+
+.create-account__link {
+    text-decoration: none;
+    color: #0066b8;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.login__buttons {
+    display: flex;
+    justify-content: right;
+    margin-top: 20px;
+}
+
+.login__button {
+    transition-duration: 0s;
+    padding: 7px 20px;
+    border: none;
+    text-decoration: none;
+    display: inline;
+}
+
+.login__button--following {
+    transition-duration: 0s;
+    margin-left: 10px;
+    background-color: #0066b8;
+    color: #fff;
+    &:hover {
+        transition-duration: 0s;
+        background: #004e8d;
+    }
+}
+
+.login__button--back {
+    transition-duration: 0s;
+    margin-left: 10px;
+    background: #cccccc;
+    color: #000;
+    &:hover {
+        transition-duration: 0s;
+        background: #aaaaaa;
+    }
+}

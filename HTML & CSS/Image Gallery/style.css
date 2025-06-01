@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition-duration: 0.7s;
+}
+
+body {
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 90%;
+    height: 90vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+
+.image {
+    width: 24%;
+    height: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+    filter: brightness(0.5);
+}
+
+.image:hover {
+    filter: brightness(1);
+    width: 80%;
+    z-index: 1;
+    position: relative;
+    left: 0;
+    
+    z-index: 2;
+    .image:not(:hover) {
+        display: none;
+    }
+}
