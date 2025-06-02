@@ -50,21 +50,45 @@ body {
 
 .card--2 {
     text-align: right;
-    background-color: #fff;
-    
+    background: url("../../Resources/Images/Charlie Brown/Charlie Brown Background.jpg") no-repeat center top / cover;
+    padding: 10px;
 }
+
+.card__img--2 {
+    display: none;
+}
+
+.card__title--2 {
+    color: #fff;
+}
+
+.card__description--2 {
+    font-size: 14px;
+}
+
 .card--3{
     color: #fff;
     background-color: #333;
     border-radius: 15px;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0 0 50px #33ff00;
     
 }
+
+.card__img--3{
+    border-radius: 15px;
+    width: 90%;
+}
+
 .card__title--3{
     font-size: 1.5rem;
     color: #fff;
-    margin-bottom: 0.5rem;
+    text-align: center;
 }
-.card__img--3{
-    border-radius: 15px;
+
+.card__description--3 {
+    text-align: center;
 }
