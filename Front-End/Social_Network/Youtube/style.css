@@ -215,7 +215,7 @@ body {
 
 .card--short {
   background: linear-gradient(to bottom, #0004 60%, #000 100%),
-    url("../../Resources/Images/Dhrelkan.png") no-repeat center center / cover;
+    url("../../../Resources/Images/Dhrelkan.png") no-repeat center center / cover;
   height: 400px;
   width: 200px;
   display: flex;
@@ -225,9 +225,7 @@ body {
   border-radius: 10px;
 }
 
-/* Responsive Aside en tablet */
 @media screen and (max-width: 1023px) {
-  /* Ajustá el ancho*/
   aside {
     width: 20px;
     display: flex;
@@ -235,47 +233,43 @@ body {
     align-items: center;
   }
 
-  /* Ocultar el texto de cada ítem */
   .item__p {
     display: none;
   }
 
-  /* Ocultar los títulos de cada sección */
+
   .section__title {
     display: none;
   }
 
-  /* Centrar los íconos dentro del contenedor */
+
   .section__item {
     justify-content: center;
   }
 
-  /* Ajustar el tamaño de los íconos */
+
   .item__img {
     width: 1.5rem;
     height: 1.5rem;
   }
 
-  /* Ajustar el ancho del divisor */
+
   .aside__divider {
     border: none;
     height: 1px;
     background-color: #444;
     margin: 10px 0;
   }
-  /* Ocultar el pie de página del aside */
+
   .aside__footer {
     display: none;
   }
 }
 
-/* Responsive Aside en mobile */
 @media screen and (max-width: 600px) {
-  /* Ajustar el ancho del aside */
   aside {
     width: 10px;
   }
-  /* Ocultar el texto de cada ítem */
   .item__img {
     width: 1.2rem;
     height: 1.2rem;
