@@ -1,0 +1,19 @@
+{
+  "name": "Tailwindcss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:dev": "pnpx @tailwindcss/cli -i ./style.css -o ./assets/output.css --watch",
+    "build:prod": "pnpx @tailwindcss/cli -i ./style.css -o ./assets/output.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.11.1",
+  "dependencies": {
+    "@midudev/tailwind-animations": "^0.2.0",
+    "@tailwindcss/cli": "^4.1.8",
+    "tailwindcss": "^4.1.8"
+  }
+}

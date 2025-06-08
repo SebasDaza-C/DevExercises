@@ -1,0 +1,52 @@
+# Notas y Comandos de Tailwind CSS y Herramientas Relacionadas
+
+# Nota importante:
+# Los comandos 1, 2 y 3 (configuración global) solo necesitas ejecutarlos una vez en tu computadora.
+# Los comandos 4, 5, 6 y 7 son los que usarás cada vez que inicies un nuevo proyecto con Tailwind CSS.
+# - El comando 6 es para generar el CSS final una sola vez (ideal para producción).
+# - El comando 7 es para desarrollo, ya que recompila automáticamente el CSS cada vez que guardas cambios.
+
+# TIP AVANZADO:
+# Puedes agregar estos comandos como scripts en la sección "scripts" de tu package.json para ejecutarlos fácilmente.
+# Ejemplo:
+#   "scripts": {
+#     "build:dev": "pnpx @tailwindcss/cli -i ./style.css -o ./assets/output.css --watch",
+#     "build:prod": "pnpx @tailwindcss/cli -i ./style.css -o ./assets/output.css"
+#   }
+# Así puedes correr:
+#   pnpm run build:dev   # Para desarrollo (con vigilancia)
+#   pnpm run build:prod  # Para producción (una sola vez)
+
+# IMPORTANTE SOBRE @theme:
+# Si quieres que VS Code reconozca la directiva @theme en tus archivos .css como parte de TailwindCSS,
+# puedes asociar los archivos .css a tailwindcss en la configuración del espacio de trabajo agregando esto en .vscode/settings.json:
+#   "files.associations": {
+#     "*.css": "tailwindcss"
+#   }
+# Esto mejora el autocompletado y el reconocimiento de directivas personalizadas como @theme en el editor.
+
+# NOTAS DE UTILIDADES Y CONCEPTOS DE TAILWIND:
+# - group: Permite aplicar estilos a elementos hijos cuando el elemento padre tiene una clase 'group' y el hijo usa variantes como 'group-hover:'.
+#   Ejemplo:
+#     <div class="group">
+#       <button class="group-hover:bg-blue-500">Botón</button>
+#     </div>
+#   El botón cambiará de color cuando pases el mouse sobre el div padre.
+# - Existen muchas utilidades y variantes en Tailwind como peer, first, last, even, odd, etc. que puedes combinar para estilos avanzados.
+# - Es recomendable anotar cualquier utilidad, variante o patrón que te parezca útil para futuras referencias.
+
+# COMANDOS BÁSICOS Y FLUJO DE TRABAJO:
+1. Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned -Force
+    # Permite la ejecución de scripts en PowerShell para instalar paquetes globales (solo una vez por computadora)
+2. npm install -g pnpm
+    # Instala pnpm globalmente en tu sistema (solo una vez por computadora)
+3. pnpm --version
+    # Verifica que pnpm esté instalado y muestra la versión (opcional, solo una vez por computadora)
+4. pnpm init
+    # Inicializa un nuevo proyecto y crea el archivo package.json (cada vez que inicies un nuevo proyecto)
+5. pnpm add tailwindcss @tailwindcss/cli
+    # Instala Tailwind CSS y su CLI como dependencias del proyecto (cada vez que inicies un nuevo proyecto)
+6. pnpx @tailwindcss/cli -i ./style.css -o ./assets/output.css
+    # Ejecuta el CLI de Tailwind para procesar style.css y generar output.css en la carpeta assets (úsalo cuando quieras compilar el CSS una sola vez, por ejemplo antes de producción)
+7. pnpx @tailwindcss/cli -i ./style.css -o ./assets/output.css --watch
+    # Ejecuta el CLI de Tailwind en modo vigilancia: recompila automáticamente output.css cada vez que guardas cambios en tus archivos (ideal para desarrollo)
