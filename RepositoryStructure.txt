@@ -1,0 +1,160 @@
+# Estructura propuesta para el repositorio de ejercicios de desarrollo
+
+/
+├── Web/                   # Ejercicios de desarrollo web
+│   ├── FrontEnd/          # HTML, CSS, JS, ejercicios de UI, clones de sitios, componentes
+│   │   ├── html/
+│   │   │   ├── cards/
+│   │   │   │   ├── index.html
+│   │   │   │   └── style.css
+│   │   │   ├── forms/
+│   │   │   │   ├── index.html
+│   │   │   │   └── style.css
+│   │   │   └── ...
+│   │   ├── css/
+│   │   │   └── ...
+│   │   ├── javascript/
+│   │   │   ├── chessboard.js
+│   │   │   ├── multiplication_tables.js
+│   │   │   └── ...
+│   │   ├── frameworks/
+│   │   │   ├── react/
+│   │   │   │   ├── project1/
+│   │   │   │   │   ├── src/
+│   │   │   │   │   │   ├── App.js
+│   │   │   │   │   │   └── ...
+│   │   │   │   │   └── package.json
+│   │   │   │   └── ...
+│   │   │   ├── vue/
+│   │   │   │   └── ...
+│   │   │   ├── angular/
+│   │   │   │   └── ...
+│   │   │   └── tailwindcss/
+│   │   │       ├── index.html
+│   │   │       ├── style.css
+│   │   │       ├── tailwind.config.js
+│   │   │       └── ...
+│   │   └── ejemplos_ui/
+│   │       ├── social_network/
+│   │       │   ├── discord/
+│   │       │   │   ├── index.html
+│   │       │   │   └── style.css
+│   │       │   └── ...
+│   │       └── streaming_platforms/
+│   │           ├── netflix/
+│   │           │   ├── index.html
+│   │           │   └── style.css
+│   │           └── ...
+│   ├── BackEnd/
+│   │   ├── Node.js/
+│   │   │   ├── api1/
+│   │   │   │   ├── index.js
+│   │   │   │   └── ...
+│   │   │   └── ...
+│   │   ├── python/
+│   │   │   ├── atm.py
+│   │   │   └── ...
+│   │   ├── php/
+│   │   │   └── ...
+│   │   └── frameworks/
+│   │       ├── express/
+│   │       │   └── ...
+│   │       ├── django/
+│   │       │   └── ...
+│   │       └── laravel/
+│   │           └── ...
+│   ├── FullStack/
+│   │   └── ...
+│
+├── Mobile/
+│   ├── android/
+│   │   └── ...
+│   ├── ios/
+│   │   └── ...
+│   └── cross/
+│       ├── flutter/
+│       │   └── ...
+│       └── react_native/
+│           └── ...
+│
+├── AI/
+│   ├── python/
+│   │   ├── script1.py
+│   │   └── ...
+│   ├── notebooks/
+│   │   ├── experiment1.ipynb
+│   │   └── ...
+│   ├── frameworks/
+│   │   ├── tensorflow/
+│   │   │   └── ...
+│   │   └── pytorch/
+│   │       └── ...
+│   └── modelos/
+│       ├── modelo1/
+│       │   ├── model.h5
+│       │   └── ...
+│       └── ...
+│
+├── Videogames/
+│   ├── unity/
+│   │   ├── project1/
+│   │   │   ├── Assets/
+│   │   │   └── ...
+│   │   └── ...
+│   ├── unreal/
+│   │   └── ...
+│   └── godot/
+│       └── ...
+│
+├── Cybersecurity/
+│   ├── pentesting/
+│   │   ├── lab1/
+│   │   │   ├── script.sh
+│   │   │   └── ...
+│   │   └── ...
+│   └── criptografia/
+│       ├── hash/
+│       │   ├── md5.py
+│       │   └── ...
+│       └── ...
+│
+├── resources/
+│   ├── web/
+│   │   ├── fonts/
+│   │   │   ├── outfit/
+│   │   │   │   ├── Outfit-Black.ttf
+│   │   │   │   └── ...
+│   │   │   └── ...
+│   │   ├── images/
+│   │   │   ├── iconos/
+│   │   │   │   ├── buscar.png
+│   │   │   │   └── ...
+│   │   │   └── ...
+│   │   └── ...
+│   ├── mobile/
+│   │   └── ...
+│   ├── ai/
+│   │   └── ...
+│   ├── videogames/
+│   │   └── ...
+│   ├── cybersecurity/
+│   │   └── ...
+│   └── generales/
+│       └── ...
+│
+├── others/
+│   └── ...
+│
+├── README.md
+└── .gitignore
+
+# Nota:
+- Cada lenguaje de programación, framework o librería debe estar dentro de su campo correspondiente (por ejemplo, Python en web/backend/python, no en la raíz).
+- Los recursos se centralizan en la carpeta resources y se organizan por campo dentro de ella.
+- Los frameworks y librerías también se agrupan bajo la tecnología o campo donde se usan.
+
+# Ventajas:
+- Escalable: puedes agregar nuevas áreas fácilmente.
+- Separación clara entre recursos, documentación y código.
+- Navegación rápida por área de interés.
+- Facilita la colaboración y el mantenimiento.
