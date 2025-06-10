@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+    transition-duration: 0.5s;
+}
+
+body {
+    text-transform: uppercase;
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1b1b1b;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 70px;
+    box-shadow: 0 0 20px #0008;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.card__user, .card__password {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    color: #fff;
+    outline: none;
+    background: transparent;
+}
+.card__user:hover, .card__password:hover {
+    box-shadow: 0 0 10px #fff8;
+}
+
+.card__submit {
+    text-transform: uppercase;
+    padding: 10px;
+    background: #fff;
+    border: none;
+    border-radius: 10px;
+}
+
+.card__submit:hover {
+    letter-spacing: 5px;
+}
