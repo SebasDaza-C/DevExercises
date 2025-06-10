@@ -1,68 +1,86 @@
 # Estructura propuesta para el repositorio de ejercicios de desarrollo
 
 /
-├── Web/                   # Ejercicios de desarrollo web
-│   ├── FrontEnd/          # HTML, CSS, JS, ejercicios de UI, clones de sitios, componentes
-│   │   ├── html/
-│   │   │   ├── cards/
+├── Web/                        # Web development exercises
+│   ├── FrontEnd/               # HTML, CSS, JS, UI exercises, site clones, components
+│   │   ├── StaticSites/
+│   │   │   ├── Cards/
 │   │   │   │   ├── index.html
 │   │   │   │   └── style.css
-│   │   │   ├── forms/
+│   │   │   ├── Forms/
+│   │   │   │   ├── index.html
+│   │   │   │   └── style.css
+│   │   │   ├── GoogleSectionLogin/
+│   │   │   │   ├── index.html
+│   │   │   │   └── style.css
+│   │   │   ├── ImageGallery/
+│   │   │   │   ├── index.html
+│   │   │   │   └── style.css
+│   │   │   ├── MicrosoftSectionLogin/
 │   │   │   │   ├── index.html
 │   │   │   │   └── style.css
 │   │   │   └── ...
-│   │   ├── css/
+│   │   ├── JavaScriptExercises/
+│   │   │   ├── Chessboard.js
+│   │   │   ├── MultiplicationTables.js
+│   │   │   ├── Variables.js
+│   │   │   └── Console.log().js
+│   │   ├── FrameworksAndLibraries/
+│   │   │   ├── React/
+│   │   │   │   └── ...
+│   │   │   ├── TailwindCSS/
+│   │   │   │   ├── index.html
+│   │   │   │   ├── style.css
+│   │   │   │   ├── tailwind.config.js
+│   │   │   │   ├── package.json
+│   │   │   │   ├── pnpm-lock.yaml
+│   │   │   │   ├── notas_tailwind.txt
+│   │   │   │   └── assets/
+│   │   │   │       └── output.css
 │   │   │   └── ...
-│   │   ├── javascript/
-│   │   │   ├── chessboard.js
-│   │   │   ├── multiplication_tables.js
+│   │   ├── SocialNetwork/
+│   │   │   ├── Discord/
+│   │   │   │   ├── index.html
+│   │   │   │   └── style.css
+│   │   │   ├── Facebook/
+│   │   │   │   ├── index.html
+│   │   │   │   └── style.css
+│   │   │   ├── Instagram/
+│   │   │   │   ├── index.html
+│   │   │   │   └── style.css
+│   │   │   ├── Reddit/
+│   │   │   │   ├── index.html
+│   │   │   │   └── style.css
+│   │   │   ├── X/
+│   │   │   │   ├── index.html
+│   │   │   │   └── style.css
+│   │   │   ├── Youtube/
+│   │   │   │   ├── index.html
+│   │   │   │   └── style.css
 │   │   │   └── ...
-│   │   ├── frameworks/
-│   │   │   ├── react/
-│   │   │   │   ├── project1/
-│   │   │   │   │   ├── src/
-│   │   │   │   │   │   ├── App.js
-│   │   │   │   │   │   └── ...
-│   │   │   │   │   └── package.json
-│   │   │   │   └── ...
-│   │   │   ├── vue/
-│   │   │   │   └── ...
-│   │   │   ├── angular/
-│   │   │   │   └── ...
-│   │   │   └── tailwindcss/
-│   │   │       ├── index.html
-│   │   │       ├── style.css
-│   │   │       ├── tailwind.config.js
-│   │   │       └── ...
-│   │   └── ejemplos_ui/
-│   │       ├── social_network/
-│   │       │   ├── discord/
-│   │       │   │   ├── index.html
-│   │       │   │   └── style.css
-│   │       │   └── ...
-│   │       └── streaming_platforms/
-│   │           ├── netflix/
-│   │           │   ├── index.html
-│   │           │   └── style.css
-│   │           └── ...
+│   │   ├── StreamingPlatforms/
+│   │   │   ├── DisneyPlus/
+│   │   │   │   ├── index.html
+│   │   │   │   └── style.css
+│   │   │   ├── Max/
+│   │   │   │   ├── index.html
+│   │   │   │   └── style.css
+│   │   │   ├── Netflix/
+│   │   │   │   ├── index.html
+│   │   │   │   └── style.css
+│   │   │   ├── PrimeVideo/
+│   │   │   │   ├── index.html
+│   │   │   │   └── style.css
+│   │   │   └── ...
+│   │   └── DynamicSites/
+│   │       └── ...
 │   ├── BackEnd/
-│   │   ├── Node.js/
-│   │   │   ├── api1/
-│   │   │   │   ├── index.js
-│   │   │   │   └── ...
+│   │   ├── Python/
+│   │   │   ├── ATM.py
+│   │   │   ├── Login.py
+│   │   │   ├── Notes Blog.py
 │   │   │   └── ...
-│   │   ├── python/
-│   │   │   ├── atm.py
-│   │   │   └── ...
-│   │   ├── php/
-│   │   │   └── ...
-│   │   └── frameworks/
-│   │       ├── express/
-│   │       │   └── ...
-│   │       ├── django/
-│   │       │   └── ...
-│   │       └── laravel/
-│   │           └── ...
+│   │   └── ...
 │   ├── FullStack/
 │   │   └── ...
 │
@@ -118,28 +136,33 @@
 │       │   └── ...
 │       └── ...
 │
-├── resources/
-│   ├── web/
-│   │   ├── fonts/
-│   │   │   ├── outfit/
-│   │   │   │   ├── Outfit-Black.ttf
-│   │   │   │   └── ...
+├── Resources/
+│   ├── Web/
+│   │   ├── Fonts/
+│   │   │   ├── fonts.css
+│   │   │   └── Outfit/
+│   │   │       ├── Outfit-Black.ttf
+│   │   │       ├── Outfit-Bold.ttf
+│   │   │       ├── Outfit-ExtraBold.ttf
+│   │   │       ├── Outfit-ExtraLight.ttf
+│   │   │       ├── Outfit-Light.ttf
+│   │   │       ├── Outfit-Medium.ttf
+│   │   │       ├── Outfit-Regular.ttf
+│   │   │       ├── Outfit-SemiBold.ttf
+│   │   │       ├── Outfit-Thin.ttf
+│   │   │       └── Outfit-VariableFont_wght.ttf
+│   │   ├── Images/
 │   │   │   └── ...
-│   │   ├── images/
-│   │   │   ├── iconos/
-│   │   │   │   ├── buscar.png
-│   │   │   │   └── ...
-│   │   │   └── ...
 │   │   └── ...
-│   ├── mobile/
+│   ├── Mobile/
 │   │   └── ...
-│   ├── ai/
+│   ├── AI/
 │   │   └── ...
-│   ├── videogames/
+│   ├── Videogames/
 │   │   └── ...
-│   ├── cybersecurity/
+│   ├── Cybersecurity/
 │   │   └── ...
-│   └── generales/
+│   └── Generales/
 │       └── ...
 │
 ├── others/
@@ -148,13 +171,13 @@
 ├── README.md
 └── .gitignore
 
-# Nota:
-- Cada lenguaje de programación, framework o librería debe estar dentro de su campo correspondiente (por ejemplo, Python en web/backend/python, no en la raíz).
-- Los recursos se centralizan en la carpeta resources y se organizan por campo dentro de ella.
-- Los frameworks y librerías también se agrupan bajo la tecnología o campo donde se usan.
+# Notes:
+- Each programming language, framework, or library should be inside its corresponding area (e.g., Python in Web/BackEnd/Python, not in the root).
+- Resources are centralized in the Resources folder and organized by area.
+- Frameworks and libraries are grouped under the technology or area where they are used.
 
-# Ventajas:
-- Escalable: puedes agregar nuevas áreas fácilmente.
-- Separación clara entre recursos, documentación y código.
-- Navegación rápida por área de interés.
-- Facilita la colaboración y el mantenimiento.
+# Advantages:
+- Scalable: you can easily add new areas.
+- Clear separation between resources, documentation, and code.
+- Fast navigation by area of interest.
+- Facilitates collaboration and maintenance.
