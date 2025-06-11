@@ -215,7 +215,7 @@ body {
 
 .card--short {
   background: linear-gradient(to bottom, #0004 60%, #000 100%),
-    url("../../../Resources/Images/Dhrelkan.png") no-repeat center center / cover;
+    url("../../../../../Resources/Web/Images/Dhrelkan.png") no-repeat center center / cover;
   height: 400px;
   width: 200px;
   display: flex;
