@@ -15,8 +15,7 @@ Cybersecurity/
 ├── Cryptography/
 │   ├── Symmetric/
 │   └── Asymmetric/
-├── NetworkSecurity/
-│   ├── Firewalls/
-│   └── IDS/
-└── Resources/
+└── NetworkSecurity/
+    ├── Firewalls/
+    └── IDS/
 ```

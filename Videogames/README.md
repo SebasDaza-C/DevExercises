@@ -15,8 +15,7 @@ Videogames/
 ├── GameProgramming/
 │   ├── Unity/
 │   └── Unreal/
-├── GameArt/
-│   ├── 2D/
-│   └── 3D/
-└── Resources/
+└── GameArt/
+    ├── 2D/
+    └── 3D/
 ```

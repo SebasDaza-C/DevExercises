@@ -15,8 +15,7 @@ AI/
 ├── DeepLearning/
 │   ├── NeuralNetworks/
 │   └── ComputerVision/
-├── NaturalLanguageProcessing/
-│   ├── TextClassification/
-│   └── Chatbots/
-└── Resources/
+└── NaturalLanguageProcessing/
+    ├── TextClassification/
+    └── Chatbots/
 ```

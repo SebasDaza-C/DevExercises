@@ -15,8 +15,7 @@ Mobile/
 ├── iOS/
 │   ├── Swift/
 │   └── ObjectiveC/
-├── CrossPlatform/
-│   ├── Flutter/
-│   └── ReactNative/
-└── Resources/
+└── CrossPlatform/
+    ├── Flutter/
+    └── ReactNative/
 ```

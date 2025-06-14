@@ -81,20 +81,5 @@ Web/
 │           └── PrimeVideo/
 │               ├── index.html
 │               └── style.css
-├── FullStack/
-└── Resources/Web/
-    ├── Fonts/
-    │   ├── fonts.css
-    │   └── Outfit/
-    │       ├── Outfit-Black.ttf
-    │       ├── Outfit-Bold.ttf
-    │       ├── Outfit-ExtraBold.ttf
-    │       ├── Outfit-ExtraLight.ttf
-    │       ├── Outfit-Light.ttf
-    │       ├── Outfit-Medium.ttf
-    │       ├── Outfit-Regular.ttf
-    │       ├── Outfit-SemiBold.ttf
-    │       ├── Outfit-Thin.ttf
-    │       └── Outfit-VariableFont_wght.ttf
-    └── Images/
+└── FullStack/
 ```
