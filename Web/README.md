@@ -10,10 +10,6 @@ Actualmente, este campo es el principal foco de estudio y desarrollo en el repos
 Web/
 ├── README.md
 ├── BackEnd/
-│   └── Python/
-│       ├── ATM.py
-│       ├── Login.py
-│       └── Notes Blog.py
 ├── FrontEnd/
 │   ├── DynamicSites/
 │   ├── FrameworksAndLibraries/
