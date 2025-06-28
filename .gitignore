@@ -1,7 +1,14 @@
-/.vscode
+# Ignora node_modules en cualquier subcarpeta
+node_modules/
+**/node_modules/
+
+# Ignora carpetas específicas del workspace
 AI/
 Cybersecurity/
 DataScience/
 Mobile/
 Videogames/
 VR-AR/
+
+# Ignora configuración de VS Code
+.vscode/
