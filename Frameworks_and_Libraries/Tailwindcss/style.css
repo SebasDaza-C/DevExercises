@@ -1,8 +1,0 @@
-@import "tailwindcss";
-@plugin "@midudev/tailwind-animations";
-
-@theme {
-    --color-primary: #ff3c00;
-    --color-secondary: #ff5722;
-    --font-outfit: 'outfit', sans-serif;
-}
