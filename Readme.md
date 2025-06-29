@@ -20,26 +20,10 @@
 
 ```
 DevExercises/
-├── AI/
-│   └── README.md
-├── Cybersecurity/
-│   └── README.md
-├── DataScience/
-│   └── README.md
-├── Mobile/
-│   └── README.md
 ├── Resources/
-│   ├── AI/
-│   ├── Cybersecurity/
-│   ├── DataScience/
-│   ├── Mobile/
-│   ├── Videogames/
-│   ├── VR-AR/
-│   └── Web/
-├── Videogames/
-│   └── README.md
-├── VR-AR/
-│   └── README.md
+│   ├── Fonts/
+│   ├── Icons/
+│   └── Images/
 ├── Web/
 │   ├── README.md
 │   ├── BackEnd/
