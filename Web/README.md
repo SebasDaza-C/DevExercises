@@ -24,8 +24,15 @@ Web/
 │   │       └── assets/
 │   │           └── output.css
 │   ├── JavaScriptExercises/
+│   │   ├── ATM.js
 │   │   ├── Chessboard.js
-│   │   └── MultiplicationTables.js
+│   │   ├── Conditionals.js
+│   │   ├── DataTypes.js
+│   │   ├── Login.js
+│   │   ├── MultiplicationTables.js
+│   │   ├── NotesBlog.js
+│   │   ├── Operators.js
+│   │   └── Strings.js
 │   └── StaticSites/
 │       ├── Cards/
 │       │   ├── index.html
