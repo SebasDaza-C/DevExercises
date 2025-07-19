@@ -18,7 +18,7 @@
 
 ## 🗂️ Estructura del Repositorio
 
-```
+```Markdown
 DevExercises/
 ├── Resources/
 │   ├── README.md
