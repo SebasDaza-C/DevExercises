@@ -104,3 +104,12 @@ h1 {
         transform: scaleX(1.05);
     }
 }
+
+.form__select {
+    background-color: #111;
+}
+
+.form__option {
+    background-color: #111;
+    color: #fff;
+}
